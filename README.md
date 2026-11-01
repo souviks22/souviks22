@@ -1,90 +1,54 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hi,%20I'm%20Souvik!&fontAlignY=40&fontSize=45" />
-</p>
+# Hi, I'm Souvik 👋
 
-<h3 align="center">
-  Backend Engineer · Distributed Systems
-</h3>
+I'm a software engineer interested in **distributed systems, backend infrastructure, and AI engineering**.
 
-<p align="center">
-  I build backend systems with a focus on concurrency, reliability, performance, and distributed systems.
-</p>
+I enjoy understanding how complex systems work internally, building them from first principles, and exploring the engineering trade-offs behind reliability, scalability, and performance.
 
-<p align="center">
-  <a href="https://leetcode.com/u/souviksarkar2k3/">LeetCode Guardian</a>
-  &nbsp;·&nbsp;
-  <a href="https://codeforces.com/profile/souvikofculture">CodeForces Candidate Master</a>
-</p>
+Currently working on AI platforms while building systems-oriented projects in my own time.
 
----
+## What I Build
 
-### What I work on
+### [Continuum](https://github.com/souviks22/continuum)
+**Distributed Key-Value Store**
 
-* Distributed systems and fault-tolerant services
-* Concurrency, consistency, and synchronization
-* Caching, rate limiting, messaging, and storage
-* API and service design
-* Performance and reliability
+A distributed database exploring:
+- Multi-Raft replication and consensus
+- MVCC and cross-shard transactions
+- Percolator-inspired transaction coordination
+- Deterministic simulation for testing distributed behavior
 
-### Projects
+### [Sluice](https://github.com/souviks22/sluice)
+**Distributed Rate Limiter**
 
-#### Sluice — Distributed Rate Limiter
+A Redis-backed rate-limiting library featuring:
+- Token Bucket and Sliding Window algorithms
+- Atomic state transitions using Redis Lua scripts
+- Fault-tolerant rate-limiting infrastructure
+- Pluggable middleware for FastAPI applications
 
-Redis-backed rate limiter designed for concurrent, distributed workloads.
+## Technical Interests
 
-* Token Bucket, Sliding Window Log, and Sliding Window Counter
-* Redis + Lua for atomic state transitions
-* FastAPI middleware integration
-* Focused on concurrency correctness and race-condition prevention
+- Distributed systems and database internals
+- Concurrency, synchronization, and fault tolerance
+- Backend architecture and performance engineering
+- AI infrastructure, LLM evaluation, and observability
 
-#### Continuum — Distributed Key-Value Store
+## Technologies
 
-A distributed key-value store built to explore the fundamentals behind reliable distributed storage.
+**Languages:** C++, Python, Java, JavaScript, SQL
 
-* Raft-style consensus
-* Leader election and log replication
-* Replicated state
-* Failure handling and consistency
+**Backend & Infrastructure:** FastAPI, Spring Boot, Node.js, Redis, Kafka, Docker
 
----
+**Data & AI:** PostgreSQL, MySQL, MongoDB, PyTorch, TensorFlow
 
-### Stack
+## Problem Solving
 
-**Languages**
+Competitive programming has been an important part of my engineering journey. I enjoy tackling algorithmically challenging problems and developing strong problem-solving fundamentals.
 
-`Python` `C++` `SQL`
+[Codeforces](https://codeforces.com/profile/souvikofculture) · [LeetCode](https://leetcode.com/u/souviksarkar2k3/)
 
-**Backend & Infrastructure**
+## Connect
 
-`FastAPI` `Redis` `Kafka` `Docker` `Linux`
+[LinkedIn](https://www.linkedin.com/in/souviks22/) · [GitHub](https://github.com/souviks22)
 
-**Data**
-
-`PostgreSQL` `MySQL`
-
----
-
-### Engineering Interests
-
-```text
-Distributed Systems
-        ↓
-Concurrency & Consistency
-        ↓
-Fault Tolerance & Reliability
-        ↓
-Performance & Scalability
-```
-
-I like taking systems apart, understanding their failure modes, and building them back into working software.
-
----
-
-<p align="center">
-  <a href="https://linkedin.com/in/souviks22">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:souviksarkar2k3@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
+Always interested in discussing distributed systems, backend engineering, and interesting technical problems.
